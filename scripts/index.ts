@@ -1,5 +1,5 @@
 import fs from 'fs-extra'
-import { getXtermTheme } from './extra'
+import { getGhosttyTheme } from './extra'
 import getTheme from './theme'
 
 console.log('starting')
@@ -26,30 +26,19 @@ fs.mkdir('./themes', { recursive: true })
 
 fs.mkdir('./extra', { recursive: true })
   .then(() => Promise.all([
-    fs.writeJSON(
-      './extra/xterm-vitesse-light.json',
-      getXtermTheme({
+    fs.writeFile(
+      './extra/ghostty-artlab-dark',
+      getGhosttyTheme({
+        color: 'dark',
+        name: 'ArtLab Dark',
+      }),
+    ),
+    fs.writeFile(
+      './extra/ghostty-artlab-light',
+      getGhosttyTheme({
         color: 'light',
-        name: 'Vitesse Light',
+        name: 'ArtLab Light',
       }),
-      { spaces: 2 },
-    ),
-    fs.writeJSON(
-      './extra/xterm-vitesse-dark.json',
-      getXtermTheme({
-        color: 'dark',
-        name: 'Vitesse Dark',
-      }),
-      { spaces: 2 },
-    ),
-    fs.writeJSON(
-      './extra/xterm-vitesse-black.json',
-      getXtermTheme({
-        color: 'dark',
-        name: 'Vitesse Black',
-        black: true,
-      }),
-      { spaces: 2 },
     ),
   ]))
 
