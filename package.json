@@ -2,8 +2,8 @@
   "publisher": "arthurdanjou",
   "name": "theme-artlab",
   "displayName": "ArtLab Theme",
-  "version": "1.0.1",
-  "packageManager": "pnpm@10.15.0",
+  "version": "1.0.0",
+  "packageManager": "bun@1.3.8",
   "description": "ArtLab theme for VS Code",
   "license": "MIT",
   "repository": {
@@ -33,7 +33,7 @@
     "themes/*"
   ],
   "engines": {
-    "vscode": "^1.43.0"
+    "vscode": "1.109.3"
   },
   "contributes": {
     "themes": [
