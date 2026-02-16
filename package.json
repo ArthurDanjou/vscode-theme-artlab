@@ -1,21 +1,21 @@
 {
-  "publisher": "antfu",
-  "name": "theme-vitesse",
-  "displayName": "Vitesse Theme",
+  "publisher": "arthurdanjou",
+  "name": "theme-artlab",
+  "displayName": "ArtLab Theme",
   "version": "1.0.1",
   "packageManager": "pnpm@10.15.0",
-  "description": "Vitesse theme for VS Code",
+  "description": "ArtLab theme for VS Code",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/antfu/vscode-theme-vitesse"
+    "url": "https://github.com/arthurdanjou/vscode-theme-artlab"
   },
   "bugs": {
-    "url": "https://github.com/antfu/vscode-theme-vitesse/issues"
+    "url": "https://github.com/arthurdanjou/vscode-theme-artlab/issues"
   },
   "keywords": [
     "theme",
-    "vitesse",
+    "artlab",
     "light",
     "dark"
   ],
@@ -38,29 +38,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "Vitesse Light",
+        "label": "ArtLab Light",
         "uiTheme": "vs",
-        "path": "./themes/vitesse-light.json"
+        "path": "./themes/artlab-light.json"
       },
       {
-        "label": "Vitesse Dark",
+        "label": "ArtLab Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/vitesse-dark.json"
-      },
-      {
-        "label": "Vitesse Black",
-        "uiTheme": "vs-dark",
-        "path": "./themes/vitesse-black.json"
-      },
-      {
-        "label": "Vitesse Light Soft",
-        "uiTheme": "vs",
-        "path": "./themes/vitesse-light-soft.json"
-      },
-      {
-        "label": "Vitesse Dark Soft",
-        "uiTheme": "vs-dark",
-        "path": "./themes/vitesse-dark-soft.json"
+        "path": "./themes/artlab-dark.json"
       }
     ]
   },
@@ -74,16 +59,16 @@
     "package": "vsce package --no-dependencies"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^5.2.1",
-    "@antfu/utils": "^9.2.0",
-    "@types/color": "^4.2.0",
+    "@antfu/eslint-config": "7.4.3",
+    "@antfu/utils": "9.3.0",
+    "@types/color": "4.2.0",
     "@types/fs-extra": "^11.0.4",
-    "@types/node": "^24.3.0",
+    "@types/node": "25.2.3",
     "@vscode/vsce": "^3.6.0",
-    "@xterm/xterm": "^5.5.0",
+    "@xterm/xterm": "6.0.0",
     "bumpp": "^10.2.3",
     "color": "^5.0.0",
-    "eslint": "^9.33.0",
+    "eslint": "10.0.0",
     "fs-extra": "^11.3.1",
     "ovsx": "^0.10.5",
     "tsup": "^8.5.0",

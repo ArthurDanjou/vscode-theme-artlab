@@ -1,6 +1,6 @@
 import type { GetThemeOptions } from './helper'
 import { toArray } from '@antfu/utils'
-import { VitesseThemes } from './colors'
+import { ArtlabTheme } from './colors'
 import { createThemeHelpers } from './helper'
 
 export default function getTheme(options: GetThemeOptions) {
@@ -191,7 +191,7 @@ export default function getTheme(options: GetThemeOptions) {
       'terminal.ansiBrightRed': v('red'),
       'terminal.ansiBrightWhite': pick({ light: '#dddddd', dark: '#ffffff' }),
       'terminal.ansiBrightYellow': v('yellow'),
-      'terminal.ansiBlack': pick({ light: VitesseThemes.background[0], dark: VitesseThemes.foreground[1] }),
+      'terminal.ansiBlack': pick({ light: ArtlabTheme.background[0], dark: ArtlabTheme.foreground[1] }),
       'terminal.ansiBlue': v('blue'),
       'terminal.ansiCyan': v('cyan'),
       'terminal.ansiGreen': v('green'),

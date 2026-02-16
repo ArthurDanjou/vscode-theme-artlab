@@ -7,45 +7,18 @@ console.log('starting')
 fs.mkdir('./themes', { recursive: true })
   .then(() => Promise.all([
     fs.writeJSON(
-      './themes/vitesse-light.json',
+      './themes/artlab-light.json',
       getTheme({
         color: 'light',
-        name: 'Vitesse Light',
+        name: 'ArtLab Light',
       }),
       { spaces: 2 },
     ),
     fs.writeJSON(
-      './themes/vitesse-dark.json',
+      './themes/artlab-dark.json',
       getTheme({
         color: 'dark',
-        name: 'Vitesse Dark',
-      }),
-      { spaces: 2 },
-    ),
-    fs.writeJSON(
-      './themes/vitesse-black.json',
-      getTheme({
-        color: 'dark',
-        name: 'Vitesse Black',
-        black: true,
-      }),
-      { spaces: 2 },
-    ),
-    fs.writeJSON(
-      './themes/vitesse-light-soft.json',
-      getTheme({
-        color: 'light',
-        name: 'Vitesse Light Soft',
-        soft: true,
-      }),
-      { spaces: 2 },
-    ),
-    fs.writeJSON(
-      './themes/vitesse-dark-soft.json',
-      getTheme({
-        color: 'dark',
-        name: 'Vitesse Dark Soft',
-        soft: true,
+        name: 'ArtLab Dark',
       }),
       { spaces: 2 },
     ),

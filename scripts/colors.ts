@@ -12,7 +12,7 @@ export const colors = {
 }
 
 // [dark, light]
-export const VitesseThemes = {
+export const ArtlabTheme = {
   primary: ['#4d9375', '#1c6b48'],
 
   foreground: ['#dbd7caee', '#393a34'],
@@ -40,31 +40,32 @@ export const VitesseThemes = {
   blackActiveBackground: '#121212',
   blackPunctuation: '#444444',
 
-  comment: ['#758575dd', '#a0ada0'],
-  string: ['#c98a7d', '#b56959'],
-  variable: ['#bd976a', '#b07d48'],
-  keyword: ['#4d9375', '#1e754f'],
-  number: ['#4C9A91', '#2f798a'],
-  boolean: ['#4d9375', '#1e754f'],
-  operator: ['#cb7676', '#ab5959'],
-  function: ['#80a665', '#59873a'],
-  constant: ['#c99076', '#a65e2b'],
-  class: ['#6872ab', '#5a6aa6'],
-  interface: ['#5d99a9', '#2e808f'],
-  type: ['#5DA994', '#2e8f82'],
-  builtin: ['#cb7676', '#ab5959'],
-  property: ['#b8a965', '#998418'],
-  namespace: ['#db889a', '#b05a78'],
-  punctuation: ['#666666', '#999999'],
-  decorator: ['#bd8f8f', '#bd8f8f'],
-  regex: ['#c4704f', '#ab5e3f'],
+  // Catppuccin Mocha (dark) / Latte (light) syntax colors
+  comment: ['#9399b2', '#7c7f93'], // Overlay2
+  string: ['#a6e3a1', '#40a02b'], // Green
+  variable: ['#eba0ac', '#e64553'], // Maroon
+  keyword: ['#cba6f7', '#8839ef'], // Mauve
+  number: ['#fab387', '#fe640b'], // Peach
+  boolean: ['#fab387', '#fe640b'], // Peach
+  operator: ['#94e2d5', '#179299'], // Teal
+  function: ['#89b4fa', '#1e66f5'], // Blue
+  constant: ['#fab387', '#fe640b'], // Peach
+  class: ['#f9e2af', '#df8e1d'], // Yellow
+  interface: ['#f9e2af', '#df8e1d'], // Yellow
+  type: ['#f9e2af', '#df8e1d'], // Yellow
+  builtin: ['#f38ba8', '#d20f39'], // Red
+  property: ['#b4befe', '#7287fd'], // Lavender
+  namespace: ['#f9e2af', '#df8e1d'], // Yellow
+  punctuation: ['#9399b2', '#7c7f93'], // Overlay2
+  decorator: ['#fab387', '#fe640b'], // Peach
+  regex: ['#f5c2e7', '#ea76cb'], // Pink
 
-  // colors
-  green: ['#4d9375', '#1e754f'],
-  cyan: ['#5eaab5', '#2993a3'],
-  blue: ['#6394bf', '#296aa3'],
-  red: ['#cb7676', '#ab5959'],
-  orange: ['#d4976c', '#a65e2b'],
-  yellow: ['#e6cc77', '#bda437'],
-  magenta: ['#d9739f', '#a13865'],
+  // Catppuccin accent colors
+  green: ['#a6e3a1', '#40a02b'], // Green
+  cyan: ['#94e2d5', '#179299'], // Teal
+  blue: ['#89b4fa', '#1e66f5'], // Blue
+  red: ['#f38ba8', '#d20f39'], // Red
+  orange: ['#fab387', '#fe640b'], // Peach
+  yellow: ['#f9e2af', '#df8e1d'], // Yellow
+  magenta: ['#f5c2e7', '#ea76cb'], // Pink
 } satisfies Record<string, [string, string] | string>
