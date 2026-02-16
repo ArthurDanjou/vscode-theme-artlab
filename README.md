@@ -1,17 +1,19 @@
-<h1 align="center">Vitesse Theme for VS Code</h1>
+<h1 align="center">ArtLab Theme for VS Code</h1>
 
 <p align="center">
-<a href="https://marketplace.visualstudio.com/items?itemName=antfu.theme-vitesse" target="__blank"><img src="https://img.shields.io/visual-studio-marketplace/v/antfu.theme-vitesse.svg?color=4d9375&amp;label=Marketplace&logo=visual-studio-code" alt="Visual Studio Marketplace Version" /></a>
+<a href="https://marketplace.visualstudio.com/items?itemName=arthurdanjou.theme-artlab" target="__blank"><img src="https://img.shields.io/visual-studio-marketplace/v/arthurdanjou.theme-artlab.svg?color=4d9375&amp;label=Marketplace&logo=visual-studio-code" alt="Visual Studio Marketplace Version" /></a>
 </p>
 
 <p align="center">
-<img width="1275" alt="Screenshot Light Mode" src="https://github.com/user-attachments/assets/7fa3db7a-5b11-4622-a59b-1f7b3f837d0d">
-<img width="1275" alt="Screenshot Dark Mode" src="https://github.com/user-attachments/assets/2919bb08-596b-4279-9f1e-4d2f7d1913fb">
-<sub><samp>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Font | <a href="https://input.djr.com/">Input Mono</a><br>
+<img width="1275" alt="Screenshot Light Mode" src="/artlab-theme-light.png">
+<img width="1275" alt="Screenshot Dark Mode" src="/artlab-theme-dark.png">
+<sub><samp>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Font | <a href="https://monaspace.githubnext.com/">Monaspace by Github</a><br>
 &nbsp;File Icons | <a href="https://marketplace.visualstudio.com/items?itemName=Catppuccin.catppuccin-vsc-icons">Catppuccin</a><br>
 Product Icons | <a href="https://github.com/antfu/vscode-icons-carbon">Carbon</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Demo | <a href="https://github.com/antfu/vitesse">Vitesse</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</samp></sub>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Inspiration | <a href="https://github.com/antfu/vitesse">Vitesse</a> + <a href="https://github.com/catppuccin/catppuccin">Catppuccin</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</samp></sub>
 </p>
+
+ArtLab is a VS Code theme that blends the clarity of Vitesse (by antfu) with the cozy palettes of Catppuccin.
 
 ## Match with System
 
@@ -21,22 +23,21 @@ Product Icons | <a href="https://github.com/antfu/vscode-icons-carbon">Carbon</a
 // .vscode/setting.json
 {
   "window.autoDetectColorScheme": true,
-  "workbench.preferredLightColorTheme": "Vitesse Light",
-  "workbench.preferredDarkColorTheme": "Vitesse Dark",
+  "workbench.preferredLightColorTheme": "ArtLab Light",
+  "workbench.preferredDarkColorTheme": "ArtLab Dark",
 }
 ```
 
 ## Links
 
-[prism-theme-vars](https://github.com/antfu/prism-theme-vars) - where the theme is born.
+[vitesse](https://github.com/antfu/vitesse) - one of the main inspirations.
 
-[vitesse](https://github.com/antfu/vitesse) - what the theme was for.
+[catppuccin](https://github.com/catppuccin/catppuccin) - palette inspiration.
 
 ## Thanks
 
-This project is based on [github-vscode-theme](https://github.com/primer/github-vscode-theme).
+Thanks to [Vitesse](https://github.com/antfu/vitesse) and [Catppuccin](https://github.com/catppuccin/catppuccin) for the inspiration.
 
 ## License
 
-MIT - Copyright (c) 2020 Primer <br>
-MIT - Copyright (c) 2021 Anthony Fu
+MIT - Copyright (c) 2025 Arthur Danjou
