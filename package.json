@@ -33,7 +33,7 @@
     "themes/*"
   ],
   "engines": {
-    "vscode": "1.109.3"
+    "vscode": "^1.82.0"
   },
   "contributes": {
     "themes": [
