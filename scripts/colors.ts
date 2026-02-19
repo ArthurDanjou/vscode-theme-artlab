@@ -13,7 +13,7 @@ export const colors = {
 
 // [dark, light]
 export const ArtlabTheme = {
-  primary: ['#f5b89b', '#f2a272'],
+  primary: ['#74c7ec', '#f2a272'],
 
   foreground: ['#dbd7caee', '#393a34'],
   activeForeground: ['#bfbaaa', '#4e4f47'],

@@ -33,7 +33,9 @@
     "themes/*"
   ],
   "engines": {
-    "vscode": "^1.82.0"
+    "vscode": "^1.82.0",
+    "node": ">=20.0.0 <23.0.0"
+
   },
   "contributes": {
     "themes": [
